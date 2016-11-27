@@ -12,6 +12,7 @@
 		D5FA1BC41DEA6AE3008F19A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FA1BC21DEA6AE3008F19A0 /* Main.storyboard */; };
 		D5FA1BC61DEA6AE3008F19A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FA1BC51DEA6AE3008F19A0 /* Assets.xcassets */; };
 		D5FA1BC91DEA6AE3008F19A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FA1BC71DEA6AE3008F19A0 /* LaunchScreen.storyboard */; };
+		D5FA1BD31DEA7438008F19A0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FA1BD11DEA7438008F19A0 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		D5FA1BC51DEA6AE3008F19A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5FA1BC81DEA6AE3008F19A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5FA1BCA1DEA6AE3008F19A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FA1BD01DEA7437008F19A0 /* foodtaskermobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "foodtaskermobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		D5FA1BD11DEA7438008F19A0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		D5FA1BD21DEA7438008F19A0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		D5FA1BBD1DEA6AE3008F19A0 /* foodtaskermobile */ = {
 			isa = PBXGroup;
 			children = (
+				D5FA1BD41DEA7459008F19A0 /* lib */,
 				D5FA1BBE1DEA6AE3008F19A0 /* AppDelegate.swift */,
 				D5FA1BC01DEA6AE3008F19A0 /* ViewController.swift */,
 				D5FA1BC21DEA6AE3008F19A0 /* Main.storyboard */,
@@ -62,6 +67,16 @@
 				D5FA1BCA1DEA6AE3008F19A0 /* Info.plist */,
 			);
 			path = foodtaskermobile;
+			sourceTree = "<group>";
+		};
+		D5FA1BD41DEA7459008F19A0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D5FA1BD11DEA7438008F19A0 /* SWRevealViewController.m */,
+				D5FA1BD21DEA7438008F19A0 /* SWRevealViewController.h */,
+				D5FA1BD01DEA7437008F19A0 /* foodtaskermobile-Bridging-Header.h */,
+			);
+			name = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +111,8 @@
 				TargetAttributes = {
 					D5FA1BBA1DEA6AE3008F19A0 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2R465XH98W;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +155,7 @@
 			files = (
 				D5FA1BC11DEA6AE3008F19A0 /* ViewController.swift in Sources */,
 				D5FA1BBF1DEA6AE3008F19A0 /* AppDelegate.swift in Sources */,
+				D5FA1BD31DEA7438008F19A0 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +278,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2R465XH98W;
 				INFOPLIST_FILE = foodtaskermobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ktjhan.foodtaskermobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "foodtaskermobile/foodtaskermobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,10 +294,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2R465XH98W;
 				INFOPLIST_FILE = foodtaskermobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ktjhan.foodtaskermobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "foodtaskermobile/foodtaskermobile-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
