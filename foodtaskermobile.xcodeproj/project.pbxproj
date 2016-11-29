@@ -13,6 +13,10 @@
 		D5FA1BC61DEA6AE3008F19A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FA1BC51DEA6AE3008F19A0 /* Assets.xcassets */; };
 		D5FA1BC91DEA6AE3008F19A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FA1BC71DEA6AE3008F19A0 /* LaunchScreen.storyboard */; };
 		D5FA1BD31DEA7438008F19A0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FA1BD11DEA7438008F19A0 /* SWRevealViewController.m */; };
+		D5FA1BD61DEB897D008F19A0 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA1BD51DEB897D008F19A0 /* RestaurantViewController.swift */; };
+		D5FA1BD81DEE1F16008F19A0 /* CustomerMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA1BD71DEE1F16008F19A0 /* CustomerMenuTableViewController.swift */; };
+		D5FA1BDA1DEE2450008F19A0 /* MealListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA1BD91DEE2450008F19A0 /* MealListTableViewController.swift */; };
+		D5FA1BDC1DEE326E008F19A0 /* MealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA1BDB1DEE326E008F19A0 /* MealDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		D5FA1BD01DEA7437008F19A0 /* foodtaskermobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "foodtaskermobile-Bridging-Header.h"; sourceTree = "<group>"; };
 		D5FA1BD11DEA7438008F19A0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		D5FA1BD21DEA7438008F19A0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		D5FA1BD51DEB897D008F19A0 /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		D5FA1BD71DEE1F16008F19A0 /* CustomerMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerMenuTableViewController.swift; sourceTree = "<group>"; };
+		D5FA1BD91DEE2450008F19A0 /* MealListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealListTableViewController.swift; sourceTree = "<group>"; };
+		D5FA1BDB1DEE326E008F19A0 /* MealDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				D5FA1BD41DEA7459008F19A0 /* lib */,
 				D5FA1BBE1DEA6AE3008F19A0 /* AppDelegate.swift */,
 				D5FA1BC01DEA6AE3008F19A0 /* ViewController.swift */,
+				D5FA1BD51DEB897D008F19A0 /* RestaurantViewController.swift */,
+				D5FA1BD71DEE1F16008F19A0 /* CustomerMenuTableViewController.swift */,
+				D5FA1BD91DEE2450008F19A0 /* MealListTableViewController.swift */,
+				D5FA1BDB1DEE326E008F19A0 /* MealDetailsViewController.swift */,
 				D5FA1BC21DEA6AE3008F19A0 /* Main.storyboard */,
 				D5FA1BC51DEA6AE3008F19A0 /* Assets.xcassets */,
 				D5FA1BC71DEA6AE3008F19A0 /* LaunchScreen.storyboard */,
@@ -154,7 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5FA1BC11DEA6AE3008F19A0 /* ViewController.swift in Sources */,
+				D5FA1BDC1DEE326E008F19A0 /* MealDetailsViewController.swift in Sources */,
+				D5FA1BD61DEB897D008F19A0 /* RestaurantViewController.swift in Sources */,
+				D5FA1BDA1DEE2450008F19A0 /* MealListTableViewController.swift in Sources */,
 				D5FA1BBF1DEA6AE3008F19A0 /* AppDelegate.swift in Sources */,
+				D5FA1BD81DEE1F16008F19A0 /* CustomerMenuTableViewController.swift in Sources */,
 				D5FA1BD31DEA7438008F19A0 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
