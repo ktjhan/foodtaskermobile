@@ -1,0 +1,6 @@
+framework module Pods_foodtaskermobile {
+  umbrella header "Pods-foodtaskermobile-umbrella.h"
+
+  export *
+  module * { export * }
+}
